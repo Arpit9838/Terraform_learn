@@ -1,0 +1,9 @@
+# Terraform files to ignore
+.terra-key-ec2
+.terra-key-ec2.pub
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
