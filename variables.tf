@@ -18,3 +18,11 @@ variable "ec2_ami_id" {
   default     = "ami-020cba7c55df1f615" # Example AMI ID, replace with a valid one for your region
   
 }
+
+variable "env" {
+  description = "The environment for the EC2 instance (e.g., dev, staging, prd)"
+  type        = string
+  default     = "dev"
+  
+  
+}
